@@ -1,0 +1,52 @@
+{
+  "type": "Coverage",
+  "domain": {
+    "type": "Domain",
+    "domainType": "Point",
+    "axes": {
+      "x": {"values": [100.234538]},
+      "y": {"values": [7.815257]},
+      "t": {"values": ["2023-08-09T06:47:51Z"]}
+    },
+    "referencing": [
+      {
+        "coordinates": ["x", "y"],
+        "system": {
+          "type": "GeographicCRS",
+          "id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+        }
+      },
+      {
+        "coordinates": ["t"],
+        "system": {
+          "type": "TemporalRS",
+          "calendar": "Gregorian"
+        }
+      }
+    ]
+  },
+  "parameters": {
+    "data": {
+      "type": "Parameter",
+      "description": {
+        "en": "Data Coverage in Vallaris Maps."
+      },
+      "unit": {
+        "label": {"en": ""},
+        "symbol": {"value": "unit", "type": ""}
+      },
+      "observedProperty": {
+        "id": "",
+        "label": {"en": "", "de": ""},
+        "description": {"en": ""}
+      }
+    }
+  },
+  "ranges": {
+    "data": {
+      "type": "NdArray",
+      "dataType": "float",
+      "values": [0.513671]
+    }
+  }
+}
